@@ -1,0 +1,9 @@
+name: 'Rust Benchmark Gnuplot'
+description: 'Adds Gnuplot to Rust image prior to running cargo bench'
+author: 'Daniel Stahl <danstahl1138@gmail.com>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'zap'
+  color: 'orange'

@@ -1,4 +1,4 @@
-# Gnuplot
+# Gnuplot for Rust benchmarks
 
 Provides Gnuplot.  This is useful for visualizing benchmarks for Rust.  To add to a workflow, add  
 
