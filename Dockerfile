@@ -1,4 +1,4 @@
-FROM rust:latest
+FROM rustlang/rust:nightly-slim
 RUN apt-get update
 RUN apt-get install -y gnuplot
 ADD entrypoint.sh entrypoint.sh
