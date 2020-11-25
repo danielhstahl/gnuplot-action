@@ -1,5 +1,8 @@
 FROM rustlang/rust:nightly-slim
 RUN apt-get update
+RUN apt-get install -y cmake
+RUN apt-get install -y musl-tools
+RUN apt-get install -y build-essential
 RUN apt-get install -y gnuplot
 ADD entrypoint.sh entrypoint.sh
 LABEL "com.github.actions.name"="Rust Benchmark Gnuplot"
